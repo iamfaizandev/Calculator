@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ body {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/Bg.jpg); 
+  color: black;
+  overflow: hidden; 
+}
+h4 p{
+    position: relative;
+    text-align: center;
+}
+.btn{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px double rgb(10, 94, 146);
+  border-radius: 9px;
+  cursor: pointer;
+
+  transform:rotateY(180deg);
+  transition: 1s;
+}
+.container{
+    position: fixed;
+    top: 20%;
+    left: 40%;
+    
+}
+.Row{
+  margin: 8px 0;
+  
+}
+.Row input{
+  width: 291px;
+  font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid skyblue;
+    border-radius: 5px;
+}
+p{
+    font-size: 16px;
+    color: darkred;
+    font-weight: 100;
+}
+.Row input:focus{
+    background-color: skyblue;
+    border: 3px solid darkred;
+    transition: 1s;
+}
+.btn:hover{
+    color: white;
+    transform:rotateY(-20deg);
+    transition-delay: 0.9s;
+    box-shadow: -3px 3px 6px rgb(159, 76, 76);
+    transition: 2s;
+    background-color: darkblue;
+}
+footer{
+    position: fixed;
+    bottom: 15px;
+ }
+footer a{
+    text-decoration: none;
+    color: white;
+}
