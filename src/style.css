@@ -73,3 +73,11 @@ footer a{
     text-decoration: none;
     color: white;
 }
+@media only screen and (max-width:400px) {
+    .container{
+        position: fixed;
+        top: 20%;
+        left: 0;
+        
+    }
+}
